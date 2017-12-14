@@ -1,0 +1,38 @@
+.searchbar-div {
+	background-color: black;
+	min-height:400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid lightskyblue;
+}
+
+input {
+	flex:1;
+	height: 80px;
+	font-size:30px;
+}
+
+input:focus {
+	border: 2px solid lightskyblue;
+}
+
+.fa-search {
+	color: white;
+	font-size:80px;
+	margin: 0px 5px;
+}
+
+.fa-search:hover {
+	color: lightskyblue;
+}
+
+@media screen  and (max-width: 900px) {
+	input {
+		height:40px;
+		font-size:12px;
+	}
+	.fa-search {
+		font-size:40px;
+	}
+}
